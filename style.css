@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("image/Img.png");
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 37px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.main {
+  background-color: rgba(45, 51, 64, 0.4);
+  width: 90vw;
+  border-radius: 15px;
+  margin-top: 36px;
+}
+
+.days {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+.week {
+  font-size: 22px;
+}
